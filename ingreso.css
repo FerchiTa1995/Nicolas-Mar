@@ -1,0 +1,26 @@
+* {box-sizing: border-box;}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(imagenes/fotoinicio.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor {
+    width: 100%;
+    padding: 15px;
+}
+h1 {color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+a {color: red;}
+p{color: black;}
+
+.todo {
+    background: gray;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4%;
+}

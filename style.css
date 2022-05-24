@@ -1,0 +1,115 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+h3{background-color: transparent;}
+
+body {
+    background-color: black;
+}
+.texto{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+.video {
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    list-style: none;
+    margin-top: 25px;
+    
+    display: flex;
+    
+
+ background-color: white;
+}
+
+.menu :hover {background: pink;}
+ul{
+    width: 100%;
+}
+header {
+    position: sticky; top:0;
+
+}
+nav {
+    display: flex;
+
+    width: 100%;
+
+}
+h3 {
+    color: black;font-size: 20px;text-decoration: none;
+}
+a{text-decoration: none;}
+.inicio {
+    border: solid 1px black; width: 25%; height: 30px;
+    text-align: center; padding-top: 5px;
+}
+.sobremi {
+    border: solid 1px black; width: 25%;text-align: center;padding-top: 5px;
+}
+
+.entradas{
+    border: solid 1px black; width: 25%;text-align: center;padding-top: 5px;
+}
+    
+.galeria {
+    border: solid 1px black;
+    width: 25%;text-align: center;padding-top: 5px;
+    
+}
+.ingreso {
+    border: solid 1px black; width: 15%;text-align: center;padding-top: 5px; background-color: red;
+}
+.titulo {
+    color: white; font-size: 18px;
+    text-align: center;
+ }
+
+.titulo .logo img {border-radius: 30%;}
+
+.ultimasfechas{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0;
+}
+.logo {
+    margin-left: 25px;
+}
+
+.foto1 {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 3px;
+}
+.foto2 {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 3px;
+}
+.foto3 {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 3px;
+}
+.foto4 {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 3px;
+}
+.foto5 {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 3px;
+}
+.foto6 {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 3px;
+}
